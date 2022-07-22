@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<templates>
+    <t t-name="odoo_oclock.oclock_template" class="mt-2">
+        <div id="d_odoo_clock" style="width:100%;height:100%;
+        background-image: url(odoo_oclock/static/src/img/clock_bg_1.jpg);background-repeat:no-repeat; background-size:cover;">
+            <canvas id="oclock_canvas"  style="width:100%;height: 95%; "></canvas>
+        </div>
+    </t>
+</templates>
